@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VS Code</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        *{
+            box-sizing: border-box; 
+        }
+    </style>
+</head>
+<body>
+    <div class="flex flex-col h-screen overflow-y-hidden">
+    <div class="bg-slate-800 h-screen flex">
+        <div class="w-5/100 border-r-1 flex flex-col justify-between bg-slate-900">
+            <div class="bg-slate-900">
+            <ul>
+                <li class=" text-slate-400 p-2 ml-3 text-2xl hover:text-white hover:cursor-pointer"><i class="fa-regular fa-file"></i></li>
+                <li class=" text-slate-400 p-2 ml-3 text-2xl hover:text-white hover:cursor-pointer"><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li class=" text-slate-400 p-2 ml-3 text-2xl hover:text-white hover:cursor-pointer"><i class="fa-solid fa-code-branch"></i></li>
+                <li class=" text-slate-400 p-2 ml-3 text-2xl hover:text-white hover:cursor-pointer"><i class="fa-solid fa-play"></i></li>
+                <li class=" text-slate-400 p-2 ml-3 text-2xl hover:text-white hover:cursor-pointer"><i class="fa-solid fa-pen-to-square"></i></li>
+                <li class=" text-slate-400 p-2 ml-3 text-2xl hover:text-white hover:cursor-pointer"><i class="fa-solid fa-box"></i></li>
+            </ul>
+            </div>
+            <div class="bg-slate-900">
+                <ul>
+                    <li class=" text-slate-400 p-2 ml-3 text-2xl hover:text-white hover:cursor-pointer"><i class="fa-regular fa-circle-user"></i></li>
+                    <li class=" text-slate-400 p-2 ml-3 text-2xl hover:text-white hover:cursor-pointer"><i class="fa-solid fa-gear"></i></li>
+                </ul>
+            </div>
+        </div>
+        <div class="w-20/100 border-r-1 ">
+            <div class="flex text-white justify-between">
+            <h3 class="text-green-300 text-xs ml-4 mt-3 mb-0 cursor-default">EXPLORER</h3>
+            <i class="fa-solid fa-ellipsis mr-4 mt-2 text-slate-400 hover:bg-slate-700 rounded-sm p-1 hover:cursor-pointer"></i>
+            </div>
+            <div class="text-white p-3 text-xs bg-slate-900 mt-2 h-10 font-[800] hover:cursor-pointer">
+                > &nbsp; OPEN EDITORS
+            </div>
+            <hr class="w-63.4 text-white">
+            <div class="text-slate-400 p-3 text-xs hover:bg-slate-700 h-0.5 flex py-4 hover:cursor-pointer">
+                <i class="fa-solid fa-code text-red-500 -mt-1"></i>
+             <div class="-mt-2">
+                 &nbsp; index1.html
+             </div>   
+            </div>
+            <div class="text-slate-400 p-3 text-xs hover:bg-slate-700 h-0.5 py-4 flex hover:cursor-pointer">
+                <i class="fa-solid fa-code text-red-500 -mt-1"></i>
+                <div class="-mt-2">
+                  &nbsp; index2.html
+                </div>
+            </div>
+            <div class="text-slate-400 p-3 text-xs hover:bg-slate-700 h-0.5 py-4 flex hover:cursor-pointer">
+                <i class="fa-solid fa-code text-red-500 -mt-1"></i>
+                <div class="-mt-2">&nbsp; index3.html</div>
+            </div>
+            <div class="text-slate-400 p-3 text-xs hover:bg-slate-700 h-0.5 py-4 flex hover:cursor-pointer">
+                <i class="fa-solid fa-code text-red-500 -mt-1"></i>
+                <div class="-mt-2">&nbsp; index4.html</div>
+            </div>
+            <div class="text-slate-400 p-3 text-xs hover:bg-slate-700 h-0.5 py-4 flex hover:cursor-pointer">
+                <i class="fa-solid fa-code text-red-500 -mt-1"></i>
+                <div class="-mt-2">&nbsp; index5.html</div>
+            </div>
+            <div class="text-slate-400 p-3 text-xs hover:bg-slate-700 h-0.5 py-4 flex hover:cursor-pointer">
+                <i class="fa-solid fa-code text-red-500 -mt-1"></i>
+                <div class="-mt-2">&nbsp; index6.html</div>
+            </div>
+            <div class="text-slate-400 p-3 text-xs hover:bg-slate-700 h-0.5 py-4 flex hover:cursor-pointer">
+                <i class="fa-solid fa-code text-red-500 -mt-1"></i>
+                <div class="-mt-2">&nbsp; index7.html</div>
+            </div>
+            
+        </div>
+        <div class="">
+            <div class="flex">
+            <div class="group">
+                <div class="text-slate-400 bg-slate-900 p-3 text-xs -mt-0.2 h-10 hover:cursor-pointer">
+                <i class="fa-solid fa-code text-red-500"></i> &nbsp; index1.html &nbsp; <i class="fa-solid fa-xmark invisible group-hover:visible"></i>
+                </div>
+                <div class="h-0.5 -mt-1.2  group-hover:bg-green-300"></div>
+            </div>
+            
+            <hr class="h-9.8 w-0.5">
+            <div class="group">
+                <div class="text-slate-400 bg-slate-900 p-3 text-xs -mt-0.2 h-10 hover:cursor-pointer">
+                <i class="fa-solid fa-code text-red-500"></i> &nbsp; index2.html &nbsp; <i class="fa-solid fa-xmark invisible group-hover:visible"></i>
+                </div>
+                <div class="h-0.5 -mt-1.2  group-hover:bg-green-300"></div>
+            </div>
+            <hr class="h-9.8 w-0.5">
+            <div class="group">
+                <div class="text-slate-400 bg-slate-900 p-3 text-xs -mt-0.2 h-10 hover:cursor-pointer">
+                <i class="fa-solid fa-code text-red-500"></i> &nbsp; index3.html &nbsp; <i class="fa-solid fa-xmark invisible group-hover:visible"></i>
+                </div>
+                <div class="h-0.5 -mt-1.2  group-hover:bg-green-300"></div>
+            </div>
+            <hr class="h-9.8 w-0.5">
+            <div class="group">
+                <div class="text-slate-400 bg-slate-900 p-3 text-xs -mt-0.2 h-10 hover:cursor-pointer">
+                <i class="fa-solid fa-code text-red-500"></i> &nbsp; index4.html &nbsp; <i class="fa-solid fa-xmark invisible group-hover:visible"></i>
+                </div>
+                <div class="h-0.5 -mt-1.2  group-hover:bg-green-300"></div>
+            </div>
+            <hr class="h-9.8 w-0.5">
+            <div class="group">
+                <div class="text-slate-400 bg-slate-900 p-3 text-xs -mt-0.2 h-10 hover:cursor-pointer">
+                <i class="fa-solid fa-code text-red-500"></i> &nbsp; index5.html &nbsp; <i class="fa-solid fa-xmark invisible group-hover:visible"></i>
+                </div>
+                <div class="h-0.5 -mt-1.2  group-hover:bg-green-300"></div>
+            </div>
+            <hr class="h-9.8 w-0.5">
+            <div class="group">
+                <div class="text-slate-400 bg-slate-900 p-3 text-xs -mt-0.2 h-10 hover:cursor-pointer">
+                <i class="fa-solid fa-code text-red-500"></i> &nbsp; index6.html &nbsp; <i class="fa-solid fa-xmark invisible group-hover:visible"></i>
+                </div>
+                <div class="h-0.5 -mt-1.2  group-hover:bg-green-300"></div>
+            </div>
+            <hr class="h-9.8 w-0.5">
+            <div class="group">
+                <div class="text-slate-400 bg-slate-900 p-3 text-xs -mt-0.2 h-10 hover:cursor-pointer">
+                <i class="fa-solid fa-code text-red-500"></i> &nbsp; index7.html &nbsp; <i class="fa-solid fa-xmark invisible group-hover:visible"></i>
+                </div>
+                <div class="h-0.5 -mt-1.2  group-hover:bg-green-300"></div>
+            </div>
+            <hr class="h-9.8 w-0.5">
+            </div>
+            <div>
+                <i class="fa-solid fa-note-sticky text-white ml-5 mt-5 h-5"></i>
+            <p class="text-green-300 ml-11 -mb-5 -mt-6.5">Static Preview &nbsp;:</p>
+            </div>
+            <div class="-mt-10">
+                <div class="bg-slate-800 text-white p-2 ml-3 font-mono text-sm h-full overflow-auto">
+    <pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Demo&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hello, VS Code Clone!&lt;/h1&gt;
+    &lt;p&gt;This is a demo code snippet.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+    </code></pre>
+</div>
+        </div>
+        <div>    
+        </div>
+        <div class="ml-5 text-blue-400 mb-3 overflow-y-hidden font-medium flex">
+          <i class="fa-solid fa-pencil text-red-500"></i> &nbsp;  
+          <div class="-mt-1.5 ml-2">
+            Editable HTML
+          </div> 
+          <div class="ml-2 -mt-2.5 text-xl">:</div>
+        </div>
+        <div class="ml-4 border h-55 -mt-3 border-slate-400 rounded-md ">
+            <textarea class="w-230 h-55 text-white border-b-1 border-slate-400 rounded-md bg-slate-900 overflow-auto p-2" name="" id=""></textarea>
+        </div>
+        </div>
+        </div>
+        <div class="bg-slate-900 h-7">
+            <div class="flex">
+                <div class="bg-pink-400 w-14 h-7 hover:cursor-pointer group">
+                <i class="fa-brands fa-windows text-white ml-5 mt-1.5 group-hover:text-slate-500"></i>
+                </div>
+                <div class="flex hover:cursor-pointer hover:bg-slate-700 w-20">
+                <i class="fa-regular fa-circle-xmark text-slate-400 ml-1.5 mt-1.5"></i>
+                <div class="text-slate-400 ml-1.5 mt-1 text-sm">0</div>
+                <i class="fa-solid fa-triangle-exclamation text-slate-400 ml-2 mt-1.5 "></i>
+                <div class="text-slate-400 ml-1.5 mt-1 text-sm">0</div>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+    </div>
+        
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</body>
+</html>
